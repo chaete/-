@@ -35,10 +35,10 @@
   > 2. OpenCV (4.6.0)  
 
 - ### **Results**  
-  ![original](cha.png)  
+  ![cha_image](https://github.com/chaete/opencv-python/assets/124789601/4bbb7b60-98de-414e-9689-89039cf3124b)
   ![cha_blur](https://github.com/chaete/opencv-python/assets/124789601/12444c35-5dab-45ec-ab34-1b6e6d6176bf)
 
-  ![original2](go.png)  
+  ![go_image](https://github.com/chaete/opencv-python/assets/124789601/290e2497-cd68-483f-a319-f84d0330740c)
   ![go_blur](https://github.com/chaete/opencv-python/assets/124789601/3af48e84-0df1-46d8-a0fe-4cee847306ba)
 
 
