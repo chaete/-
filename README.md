@@ -36,8 +36,8 @@
 
 - ### **Results**  
   ![original](./images/cha.png)  
-  ![blur](./images/cha_blur.png)  
+  ![blur](./demo_img1.png)  
   ![original2](./images/go.png)  
-  ![blur2](./images/go_blur.png)  
+  ![blur2](./demo_img2.png)  
 
 202133721 박채연 202135425 서혜주 202133725 성윤지 202235130 조혜린
