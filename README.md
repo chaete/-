@@ -1,22 +1,15 @@
-# IMG Flip and Face Blurring with OpenCV
-#### -  Flipping and blurring an img by detecting faces using OpenCV and Python.   
+# IMG Face Blurring with OpenCV
+#### - Blurring and intensity control of blur an img by detecting faces using OpenCV and Python. 
 
  ---
 
-- #### **Project Overview: Face Recognition and Gaussian Blur Processing using OpenCV**
-  >This project focuses on utilizing OpenCV to detect faces in an image and applying Gaussian blur to achieve a smooth effect on the facial regions. The primary goal is to identify and locate faces in the user-provided image, subsequently enhancing the facial features by applying Gaussian blur.
-
-- #### **Features and Highlights**
-  >Face detection and position determination using OpenCV
-  >Application of Gaussian blur to achieve a smooth effect on facial features
-  >Additional functionality to rotate the facial regions, providing a creative twist to the visual effect
-  
- - ### **Description and Purpose of this Project**  
-   > This project uses OpenCV and Python to detect faces in images and apply blur processing to the corresponding areas. It also goes through the process of flipping the face area and reinserting into the image. These functions can make it difficult to identify individuals, enhancing privacy and data stability. Therefore, it can be used to anonymize faces or protect sensitive information in images. This project provides information on face detection and various image processing, and presents a foundation for wider range of fields.
+ - ### **Description and purpose of this project** 
+> This project uses OpenCV and Python to detect faces in images and apply blur processing to those areas. In addition, we have added the ability to control the intensity of blur using shortcuts, as well as just blur processing. These functions make it difficult to identify people, which can increase privacy and data stability. Therefore, they can be used to anonymize faces or protect sensitive information in images. The project provides information on face detection and various image processing, and provides a foundation for a wider range of areas.
 
 - ### **Key Points**    
   ##### 1. **Steps**
-    > a. Import Image: Use OpenCV to import the target image. 
+    > a. Import Image: Use OpenCV to import the target image.
+    >                  Convert the imported image to black and white (cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)).
     > b. Face detection: Use the Haar Cascade classifier to detect faces in images. 
     > c. Blur processing: Apply Gaussian blur processing to the detected face area.
     > d. Flip: Flip the detected face area horizontally.
