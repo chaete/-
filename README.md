@@ -21,8 +21,8 @@
     > - Apply the blur effect only to the selected face and apply it only if the face area is clicked.
     > e. Key Event
     > - 'q' key is pressed, exit the program.
-    > - 'b' and '\' key is pressed, decrease the blur intensity
-    > - 'n' and '\' key is pressed, increase it.
+    > - 'b' key is pressed, decrease the blur intensity
+    > - 'n' key is pressed, increase it.
   ##### 2. **Assumption**
     > The above code is based on face image detection.
   ##### 3. **Reference object properties**
