@@ -20,21 +20,20 @@
     > - The adjust_blur_strength function is defined so that blur processing may be performed on the selected area by applying the Gaussian effect.
     > - Apply the blur effect only to the selected face and apply it only if the face area is clicked.
     > e. Key Event
-    > - 'q' key is pressed, exit the program.
-    > - 'b' key is pressed, decrease the blur intensity
-    > - 'n' key is pressed, increase it.
+    > - 'q' and '\' key is pressed, exit the program.
+    > - 'b' and '\' key is pressed, decrease the blur intensity
+    > - 'n' and '\' key is pressed, increase it.
   ##### 2. **Assumption**
-  > The above code is based on face image detection.
+    > The above code is based on face image detection.
   ##### 3. **Reference object properties**
     > a. Python must be installed.
     > b. OpenCV must be installed.
     > c. The Haar Cascade Classifier file (haarcascade_frontalface_default.xml) must exist.
-   >d. A target image file is required to perform face detection and processing.
+    > d. A target image file is required to perform face detection and processing.
      (The image file must be located in the same directory as the code, or the image must be in the path specified in the code.)
 - ### **Requirements (with versions)**      
   > 1. Python (3.8.13)  
-  > 2. OpenCV (4.6.0)  
-
+  > 2. OpenCV (4.6.0)
 - ### **Results**  
   ![cha_image](https://github.com/chaete/opencv-python/assets/124789601/4bbb7b60-98de-414e-9689-89039cf3124b)
   ![cha_blur](https://github.com/chaete/opencv-python/assets/144206101/c6e160e9-e82d-4d2d-afa1-1fa7d6e260c1)
