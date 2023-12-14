@@ -20,7 +20,7 @@
     > - The adjust_blur_strength function is defined so that blur processing may be performed on the selected area by applying the Gaussian effect.
     > - Apply the blur effect only to the selected face and apply it only if the face area is clicked.
     > e. Key Event
-    > - 'q' and '\' key is pressed, exit the program.
+    > - 'q' key is pressed, exit the program.
     > - 'b' and '\' key is pressed, decrease the blur intensity
     > - 'n' and '\' key is pressed, increase it.
   ##### 2. **Assumption**
