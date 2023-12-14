@@ -8,13 +8,21 @@
 
 - ### **Key Points**    
   ##### 1. **Steps**
-    > a. Import Image: Use OpenCV to import the target image.
-    >                  Convert the imported image to black and white (cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)).
-    > b. Face detection: Use the Haar Cascade classifier to detect faces in images. 
-    > c. Blur processing: Apply Gaussian blur processing to the detected face area.
-    > d. Flip: Flip the detected face area horizontally.
-    > e. Results: The flipped, blurry face will be applied to the original image.
-   
+    > a. Import Image
+    > - Use OpenCV to import the target image.
+    > - Convert the imported image to black and white (cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)).
+    > b. Face detection
+    > - Use the Haar Cascade classifier to detect faces in images.
+    > c. Mouse Envent
+    > - Register the 'mouse_callback'function to handle mouse click events.
+    > - When the left mouse button is clicked, it identifies the face area associated with the clicked image and stores the index in the selected_face variable.
+    > d. Blur processing
+    > - The adjust_blur_strength function is defined so that blur processing may be performed on the selected area by applying the Gaussian effect.
+    > - Apply the blur effect only to the selected face and apply it only if the face area is clicked.
+    > e. Key Event
+    > - 'q' key is pressed, exit the program.
+    > - 'b' key is pressed, decrease the blur intensity
+    > - 'n' key is pressed, increase it.
   ##### 2. **Assumption**
   > The above code is based on face image detection.
   ##### 3. **Reference object properties**
@@ -30,9 +38,7 @@
 - ### **Results**  
   ![cha_image](https://github.com/chaete/opencv-python/assets/124789601/4bbb7b60-98de-414e-9689-89039cf3124b)
   ![cha_blur](https://github.com/chaete/opencv-python/assets/124789601/12444c35-5dab-45ec-ab34-1b6e6d6176bf)
-
-  ![go_image](https://github.com/chaete/opencv-python/assets/124789601/290e2497-cd68-483f-a319-f84d0330740c)
-  ![go_blur](https://github.com/chaete/opencv-python/assets/124789601/3af48e84-0df1-46d8-a0fe-4cee847306ba)
+  ![cha_gif]()
 
 
 202133721 박채연 202135425 서혜주 202133725 성윤지 202235130 조혜린
