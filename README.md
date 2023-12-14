@@ -24,7 +24,7 @@
     > - 'b' and '\' key is pressed, decrease the blur intensity
     > - 'n' and '\' key is pressed, increase it.
   ##### 2. **Assumption**
-  > The above code is based on face image detection.
+    > The above code is based on face image detection.
   ##### 3. **Reference object properties**
     > a. Python must be installed.
     > b. OpenCV must be installed.
@@ -33,8 +33,7 @@
      (The image file must be located in the same directory as the code, or the image must be in the path specified in the code.)
 - ### **Requirements (with versions)**      
   > 1. Python (3.8.13)  
-  > 2. OpenCV (4.6.0)  
-
+  > 2. OpenCV (4.6.0)
 - ### **Results**  
   ![cha_image](https://github.com/chaete/opencv-python/assets/124789601/4bbb7b60-98de-414e-9689-89039cf3124b)
   ![cha_blur](https://github.com/chaete/opencv-python/assets/144206101/c6e160e9-e82d-4d2d-afa1-1fa7d6e260c1)
