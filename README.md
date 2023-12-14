@@ -37,8 +37,8 @@
 
 - ### **Results**  
   ![cha_image](https://github.com/chaete/opencv-python/assets/124789601/4bbb7b60-98de-414e-9689-89039cf3124b)
-  ![cha_blur](https://github.com/chaete/opencv-python/assets/124789601/12444c35-5dab-45ec-ab34-1b6e6d6176bf)
-  ![cha_gif]()
+  ![cha_blur](https://github.com/chaete/opencv-python/assets/144206101/c6e160e9-e82d-4d2d-afa1-1fa7d6e260c1)
+  ![cha_gif](https://github.com/chaete/opencv-python/assets/144206101/1e32578c-edbc-4d99-bef6-3fbf652ed0cd)
 
 
 202133721 박채연 202135425 서혜주 202133725 성윤지 202235130 조혜린
