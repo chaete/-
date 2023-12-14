@@ -21,15 +21,15 @@
     > - Apply the blur effect only to the selected face and apply it only if the face area is clicked.
     > e. Key Event
     > - 'q' key is pressed, exit the program.
-    > - 'b' key is pressed, decrease the blur intensity
-    > - 'n' key is pressed, increase it.
+    > - 'b' and '\' key is pressed, decrease the blur intensity
+    > - 'n' and '\' key is pressed, increase it.
   ##### 2. **Assumption**
   > The above code is based on face image detection.
   ##### 3. **Reference object properties**
     > a. Python must be installed.
     > b. OpenCV must be installed.
     > c. The Haar Cascade Classifier file (haarcascade_frontalface_default.xml) must exist.
-   >d. A target image file is required to perform face detection and processing.
+    > d. A target image file is required to perform face detection and processing.
      (The image file must be located in the same directory as the code, or the image must be in the path specified in the code.)
 - ### **Requirements (with versions)**      
   > 1. Python (3.8.13)  
