@@ -5,10 +5,10 @@
 
  ### Contents   
 
- 1. [Description and purpose of this project](Description-and-purpose-of-this-project)
- 2. [Key Points](Key-Points)
- 3. [Requirements (with versions)](Requirements-(with-versions))
- 4. [Results](Results)
+ 1. [Description and purpose of this project](#Description-and-purpose-of-this-project)
+ 2. [Key Points](#Key-Points)
+ 3. [Requirements (with versions)](#Requirements-(with-versions))
+ 4. [Results](#Results)
 
  - ### **Description and purpose of this project** 
 > This project uses OpenCV and Python to detect faces in images and apply blur processing to those areas. In addition, we have added the ability to control the intensity of blur using shortcuts, as well as just blur processing. These functions make it difficult to identify people, which can increase privacy and data stability. Therefore, they can be used to anonymize faces or protect sensitive information in images. The project provides information on face detection and various image processing, and provides a foundation for a wider range of areas.
